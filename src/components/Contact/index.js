@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
-import emailjs from '@emailjs/browser'
+// import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
@@ -90,7 +90,7 @@ const Contact = () => {
           <iframe title="contact-us"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.761746705296!2d77.30047317387425!3d28.546880187968092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce41be7fa0e79%3A0xf5aab92c434b57cd!2sTayyab%20Masjid!5e0!3m2!1sen!2sin!4v1693216029589!5m2!1sen!2sin"
             width="100%"
-            height="400"
+            height="100%"
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"

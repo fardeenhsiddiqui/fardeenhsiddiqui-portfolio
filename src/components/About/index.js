@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact,} from '@fortawesome/free-brands-svg-icons'
+import { faAngular, faCss3, faGitAlt, faHtml5, faJava, faJsSquare, faReact,} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -42,9 +42,12 @@ const About = () => {
         </div>
 
         <div className="stage-cube-cont">
+          <div id="stars"></div>
+          <div id='stars2'></div>
+          <div id='stars3'></div>
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faJava} color="#DD0031" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
