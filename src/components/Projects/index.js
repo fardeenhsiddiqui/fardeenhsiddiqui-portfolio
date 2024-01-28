@@ -15,15 +15,15 @@ const Projects = () => {
   return (
     <>
         <div className="container project-page">
-            <div className="text-zone">
-                <h1>
-                    <AnimatedLetters
-                    letterClass={letterClass}
-                    strArray={['P', 'r', 'o', 'j', 'e', ' c', 't', 's']}
-                    idx={15}
-                    />
-                </h1>
-            </div>
+          <div className="text-zone">
+            <h1>
+                <AnimatedLetters
+                letterClass={letterClass}
+                strArray={['P', 'r', 'o', 'j', 'e', ' c', 't', 's']}
+                idx={15}
+                />
+            </h1>
+          </div>
         </div>
         <Loader type="pacman" />
     </>
