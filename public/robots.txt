@@ -1,3 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://fardeenhsiddiqui-portfolio.pages.dev/sitemap.xml
